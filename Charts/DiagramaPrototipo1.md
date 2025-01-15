@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A[Client View<br>Input username] --> B[Client DAO User<br>getUserByUsername]
     B -->|Envia dades username| C[Petició HTTP<br>GET username]
